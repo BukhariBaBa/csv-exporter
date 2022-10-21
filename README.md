@@ -5,7 +5,6 @@
 ```
 composer require bukharibaba/csv-exporter
 ```
-``
 
 2. Set your heading, data and filemane then Create object of Export class and call the function with some params
 
@@ -29,3 +28,5 @@ $filename = "users";   // name of the file
  return response()->download($path); // download file using laravel standard method
  
 ```
+
+Thanks You
