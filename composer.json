@@ -1,5 +1,5 @@
 {
-    "name": "bukharibaba/csvexporter",
+    "name": "bukharibaba/csv-exporter",
     "description": "CSVexporter is a package for exporting xlx and csv files",
     "type": "project",
     "license": "MIT",
