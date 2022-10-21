@@ -1,0 +1,24 @@
+{
+    "name": "mrl/csvexporter",
+    "description": "CSVexporter is a package for exporting xlx and csv files",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrl\\Csvexporter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BukhariBaBa"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrl\\Csvexporter\\CsvexporterServiceProvider"
+            ]
+        }
+    }
+}
