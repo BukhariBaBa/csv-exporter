@@ -1,6 +1,6 @@
 {
     "name": "bukharibaba/csv-exporter",
-    "description": "CSVexporter is a package for exporting xlx and csv files",
+    "description": "CSV-Exporter easy to use for exporting CSV's in Laravel Project",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -13,12 +13,5 @@
             "name": "BukhariBaBa"
         }
     ],
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Mrl\\Csvexporter\\CsvexporterServiceProvider"
-            ]
-        }
-    }
+    "require": {}
 }
