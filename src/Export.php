@@ -1,6 +1,6 @@
 <?php
 
-namespace Mrl\Csvexporter;
+namespace Bukharibaba\Csvexporter;
 
 class Export
 {

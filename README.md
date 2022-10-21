@@ -5,14 +5,9 @@
 ```
 composer require bukharibaba/csv-exporter
 ```
+``
 
-2. Import Export class into your controller
-
-```
-use Mrl\Csvexporter\Export;
-```
-
-3. Set your heading, data and filemane then Create object of Export class and call the function with some params
+2. Set your heading, data and filemane then Create object of Export class and call the function with some params
 
 ```
 $heading = array('Name', 'Email', 'Phone'); // heading of the csv file
@@ -29,7 +24,7 @@ $data = array(
         );
 
 $filename = "users";   // name of the file
- $export = new Export();
+ $export = new Export(); // creating object of Export Class 
  $path = $export->export($heading, $data, $filename); // call the function in response you will get csv file path.
  return response()->download($path); // download file using laravel standard method
  
